@@ -1,0 +1,365 @@
+
+
+body {
+    color: rgb(36, 36, 36);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+
+.gallery{
+    margin-left: 350px;
+    margin-right: 350px;
+    }
+ 
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    padding-top: 1px;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+ }
+
+.gallery img:hover{
+     filter: grayscale(100%);
+     transform: scale(1.1);
+}
+
+
+/*===============================
+header
+===============================*/
+
+header {
+    background: rgb(248, 216, 201);
+    margin-top: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+.header-nav {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.header-nav-item {
+    color: dimgray;
+    display: inline-block;
+    margin: 0 50px;
+
+}
+
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*===============================
+.top-title
+===============================*/
+
+
+.top-title {
+    background-image: url(../imges/gazo1.jpg);
+    background-size: cover;
+    padding: 250px;
+}
+
+/*===============================
+.about
+===============================*/
+
+.sub-title {
+    background-color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+}
+
+.about {
+    margin: 10px 25px;
+    background-color: rgb(255, 123, 0);
+}
+
+.about-right{
+    float: right;
+    width: 40%;
+}
+
+.about-left-up {
+    float: left;
+    width: 50%;
+    line-height: 1.5;
+    border: 60px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.about-left-down {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+/*===============================
+.about2
+===============================*/
+
+
+
+.about2 {
+    margin: 10px 25px;
+    background-color: rgb(243, 180, 122);
+}
+
+.about2-left{
+    float: left;
+    width: 40%;
+}
+
+.about2-right-up {
+    float: right;
+    width: 50%;
+    line-height: 1.5;
+    border: 60px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.about2-right-down {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+/*===============================
+.about3
+===============================*/
+
+.about3 {
+    margin: 10px 25px;
+    background-color: rgb(255, 123, 0);
+}
+
+.about3-right{
+    float: right;
+    width: 40%;
+}
+
+.about3-left-up {
+    float: left;
+    width: 50%;
+    line-height: 1.5;
+    border: 60px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.about3-left-down {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+
+/*===============================
+plan
+===============================*/
+
+.plan {
+    background: rgb(247, 212, 180);
+}
+
+table {
+    background: rgb(255, 255, 255);
+}
+
+.gakuhi{
+    background: #fff;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*===============================
+form
+===============================*/
+
+
+.contact-us {
+    width: 250px;
+    background: #ffffff;
+    padding: 30px;
+    margin: 10px auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.form-item {
+    position: relative;
+    width: 100%;
+}
+
+.form-item .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0;
+    border-radius: 30px;
+}
+
+.form-item .input .message {
+    height: 125px;
+    border-radius: 15px;
+    resize: none;
+}
+
+.btn {
+    background: #3b3b57;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.form-item .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9a9a9a;
+}
+
+.social-icon {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.social-icon div .fab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+}
+
+.social-icon div.facebook{
+    background:#51789d ;
+}
+.social-icon div.twitter{
+    background:#41caf6 ;
+}
+.social-icon div.google{
+    background:#fb4f4f ;
+}
+
+/*===============================
+footer
+===============================*/
+ footer {
+     background: #000;
+     margin: 0;
+ }
+
+ .end {
+     margin-bottom: 0px;
+     color: #fff;
+     text-align: center;
+ }
+
+/*===============================
+jigyo joho anima html 雑置き場
+===============================*/
+
+ .syousai {
+     padding: 25px;
+     line-height: 30px;
+ }
+
+ .jigyo-header {
+    background: rgb(245, 201, 150);
+}
+
+.joho-header {
+    background: rgb(160, 196, 241);
+}
+
+ .anima-header {
+     background: rgb(218, 151, 190);
+ }
+
+/*===============================
+siryou
+===============================*/
+
+
+ .siryou {
+     background: rgb(201, 199, 199);
+     margin-top: 10px;
+ }
+
+ .form-siryou {
+     text-align: center;
+     margin: 0 300px;
+ }
+
+ 
